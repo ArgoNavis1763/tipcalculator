@@ -1,0 +1,78 @@
+body {
+  background: hsl(185, 41%, 84%);
+  font-family: Space Mono;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.container > div {
+  margin: 50px;
+}
+
+p {
+  color: hsl(184, 14%, 56%);
+}
+.tip-button {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: hsl(183, 100%, 15%);
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.tip-button:hover,
+button:focus {
+  background: hsl(172, 67%, 45%);
+}
+
+.tip-button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.tip-button:active {
+  transform: scale(0.99);
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 8px;
+  justify-content: center;
+
+  padding: 50px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.reset-button {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
