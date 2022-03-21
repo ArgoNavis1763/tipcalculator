@@ -24,8 +24,8 @@ p {
   color: hsl(184, 14%, 56%);
 }
 .tip-button {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 3;
   border: none;
   border-radius: 10px;
   padding: 1rem 2rem;
