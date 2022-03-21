@@ -10,9 +10,9 @@ const displayBill = document.getElementById("total-pp");
 
 const checkInputs = (billInput, tipValue, totalPeople) => {
  return (
-typeof billInput !== undefined && 
-typeof tipValue !== undefined &&
-typeof totalPeople !== undefined);}; 
+typeof billInput !== "undefined" && 
+typeof tipValue !== "undefined" &&
+typeof totalPeople !== "undefined");}; 
 
 
 
@@ -62,9 +62,8 @@ const billCalculation = (bill, tip, people) => {
 const resetButton = document.getElementById("reset-button");
 resetButton.addEventListener("click", function handleClick(event) {
     const inputs = document.querySelector("#bill-amount, #tip-percentage, #number-of-people")
-    inputs.forEach(input => {
-        input.value= "";
+    inputs.forEach(input) => 
+        input.value= "");
         
-    })
-
-});
+    }
+);
