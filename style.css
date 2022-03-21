@@ -23,6 +23,7 @@ h2 {
 p {
   color: hsl(184, 14%, 56%);
 }
+
 .tip-button {
   display: flex;
   flex-direction: row;
